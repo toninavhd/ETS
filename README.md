@@ -51,3 +51,12 @@ Test ETS
 ```
 <!-- Accesos a páginas web -->
 [soundcloud starr](https://soundcloud.com/uloee)
+
+<!-- Insertar imágenes -->
+![uloe](https://images.genius.com/207376ce761cdbbbb997ee6e14552a69.300x300x1.jpg "Ａ ｅ ｓ ｔ ｅ ｔ ｈ ｉ ｃ")
+
+* [x] god mode
+* [ ] tarea2
+* [ ] tarea3
+* [ ] tarea4
+* [x] tarea5 
