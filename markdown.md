@@ -42,8 +42,8 @@
 
 * [x] ~~God Mode~~
 * [ ] :bowtie:
-* [ ] Disco3
-* [ ] Disco4
+* [ ] :alien:
+* [ ] :pensive:
 * [x] :sleepy:
 
 <a href="https://www.youtube.com/watch?v=-CzO2yqmG9U">Uno de mis discos de *Ambient* favorito.
