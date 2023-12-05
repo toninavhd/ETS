@@ -1,5 +1,5 @@
 # OCULISTA <!--H1-->
-<!-- Encabezado -->
+
 ## A B O P <!--h2-->
 ### G W Q H <!--h3-->
 #### B U F K <!--h4-->
@@ -33,15 +33,17 @@
 
 > *A veces se gana y otras se aprende.*
 
-## MÚSICA!
+## MÚSICA! 
 
 [**SOUNDCLOUD**](https://soundcloud.com/uloee)
 
 
 ![uloe](https://images.genius.com/207376ce761cdbbbb997ee6e14552a69.300x300x1.jpg "Ａ ｅ ｓ ｔ ｅ ｔ ｈ ｉ ｃ")
 
-* [x] God Mode
-* [ ] Disco2
+* [x] ~~God Mode~~
+* [ ] :bowtie:
 * [ ] Disco3
 * [ ] Disco4
-* [x] Disco5 
+* [x] :sleepy:
+
+<a href="https://www.youtube.com/watch?v=-CzO2yqmG9U">Uno de mis discos de *Ambient* favorito.
