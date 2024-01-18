@@ -40,4 +40,4 @@ El usuario busca el libro en el sistema.
 Si el libro no está disponible, el usuario solicita una reserva.
 El sistema registra la reserva y notifica al usuario cuando el libro está disponible.
 
-![diagrama]("casos_de_uso/bibloteca.drawio.png")
+![diagrama](casos_de_uso/bibloteca.drawio.png)
