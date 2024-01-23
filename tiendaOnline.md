@@ -27,3 +27,5 @@
 
 - Actor: Administrador
 - Descripción: El administrador puede ver y gestionar las cuentas de los clientes, incluyendo la resolución de problemas y la atención al cliente.
+
+![diagrama](https://github.com/toninavhd/ETS/blob/main/Diagrama%20sin%20t%C3%ADtulo.drawio.png)
