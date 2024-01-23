@@ -25,3 +25,5 @@ El usuario/administrador selecciona la publicación que desea eliminar.
 El usuario/administrador selecciona la opción para eliminar la publicación.
 Se solicita confirmación para eliminar la publicación.
 Si se confirma, la publicación se elimina del perfil del usuario.
+
+![red social](https://github.com/toninavhd/ETS/blob/main/casos_de_uso/redsocial.drawio.png)
