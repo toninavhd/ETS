@@ -21,6 +21,11 @@ nav {
     height: 758px;
 }
 
+nav iframe{
+    background-color: aqua;
+    width: 100%;
+
+}
 main {
     float: left;
     background-color: rgb(255, 251, 0);
