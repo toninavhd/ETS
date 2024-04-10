@@ -12,18 +12,13 @@ body {
 
 }
 
-nav {
-    float: left;
-    text-shadow: 5cm;
-    color: black;
-    background-color: rgb(241, 6, 170);
-    width: 20%;
-    height: 758px;
-}
 
 nav iframe{
+    float: left;
+    text-align: center;
     background-color: aqua;
-    width: 100%;
+    width: 20%;
+    height: 758px;
 
 }
 main {
