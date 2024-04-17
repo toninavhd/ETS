@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            display: grid;
+            min-height: 100vh;
+        }
+        .contenedor{
+            display: grid;
+            place-items: center;
+
+        }
+        .contenedor .caja{
+            transform-style: preserve-3d;
+
+            animation: animacionCircular 20s linear infinite;
+        }
+        @keyframes animacionCircular {
+            0%{ transform: perspective(1000px) rotateX(0deg) rotate(0deg); }
+            100%{ transform: perspective(1000px) rotateX(360deg) rotate(0deg); }
+        }
+        .contenedor .caja span{
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: oblique;
+            font-size: 50px; 
+            text-align: center;
+            
+            
+            -webkit-text-stroke: rgba(255, 198, 250, 0.671) 1px;
+            
+            transform-style: preserve-3d;
+            transform: translate(-50%,50%) rotateX(calc(var(--i) * 36deg)) translateZ(200px);
+            box-shadow: 0px 00px 20px blue;
+        }
+
+        .contenedor .caja span a{
+            color: fuchsia;
+            
+        }
+
+        .boton{
+            background: blue;
+            
+            padding: 10px;
+            border-radius: 10px;
+            text-decoration: wavy
+        }
+         
+        
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="caja">
+            <span style="--i:1"><a href="https://soundcloud.com/uloee" class="boton">SOUNDCLOUD</a></span>
+            <span style="--i:2"><a href="https://uloe.bandcamp.com/" class="boton">BANDCAMP</a></span>
+            <span style="--i:3"><a href="./pages/album.html" class="boton">ALBUM</a></span>
+            <span style="--i:4"><a href="./pages/album.html" class="boton">INICIO</a></span>
+        </div>
+
+        
+
+    </div>
+    
+</body>
+</html>
