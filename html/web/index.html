@@ -10,12 +10,16 @@
             
             width: 100px;
             height: 200px;
+            
 
         }
         body{
 
             width: auto;
             height: 100px;
+            background-image:url('https://64.media.tumblr.com/88141cd9fdb4c793dc5db88a85d9e804/740bd9f2a61df2d7-72/s400x600/faa595e64060f218741547d631e199c017ab316e.gifv') ;
+            background-repeat: round;
+            background-size: contain;
             background-color: black;
             
             display: grid;
@@ -64,18 +68,27 @@
             text-decoration: wavy
         }
          
-        .gifcool{
+        iframe{
             
+            width: 200px;
             height: 200px;
-            width: 300px;
-          
-            background-image: url('https://64.media.tumblr.com/88141cd9fdb4c793dc5db88a85d9e804/740bd9f2a61df2d7-72/s400x600/faa595e64060f218741547d631e199c017ab316e.gifv');
-            background-repeat: no-repeat;
-            background-position: center;
-            align-self: center;
-            
-                   
         }
+
+        .gifcool{            
+            height: 200px;
+            width: 300px;          
+            background-image: url('https://64.media.tumblr.com/tumblr_m5bluoJ0Ol1rp8v27o1_500.gifv');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left;           
+                               
+        }
+
+        .soundcloud{
+            position: relative;
+            
+        }
+        
 
 
         
@@ -83,6 +96,7 @@
 </head>
 <body>
     <header>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/947893228&color=%23ff00d0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/uloee" title="Uloe" target="_blank" style="color: #cccccc; text-decoration: none;">Uloe</a> · <a href="https://soundcloud.com/uloee/2020unreleasedunfinished" title="2020unreleased/unfinished" target="_blank" style="color: #cccccc; text-decoration: none;">2020unreleased/unfinished</a></div>
 
     </header>
 
@@ -99,6 +113,10 @@
 
     </div>
     <div class="gifcool"></div>
+
+    
+
+    <div class="soundcloud"></div>
     
 </body>
 </html>
