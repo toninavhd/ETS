@@ -7,17 +7,18 @@
 }
 body {
     background-color: rgb(202, 202, 202);
-    background-image: none ;
+    background-image: url('https://i.pinimg.com/originals/3b/73/ea/3b73ea0b88e41b283e5a9366756a9118.gif') ;
     background-size: cover;
     overflow: hidden;
 }
 
 .blur {
-    background: linear-gradient(90deg, gray 1%, ghostwhite 80%);
+    
+    background: none;
     backdrop-filter: blur(10px);
     margin: 10vh 0;
     height: 80vh;
-    box-shadow: 2px 0 5px 5px rgb(168, 168, 168);
+    box-shadow: 2px 10px 20px  rgb(72, 72, 72);
 }
 
 
@@ -83,13 +84,13 @@ section p{
     border: 3px solid gray;
     border-radius: 15px;
     margin: 10px 10px;
-    box-shadow: 3px 3px 5px 1px grey;
+    box-shadow: 3px 3px 5px 1px rgb(199, 199, 199);
     background: radial-gradient(white 45%, aqua 100%);
     transition: all .3s ease-in-out;
 }
 
 .menu div:hover {
-    box-shadow: 10px 10px 10px 10px gray;
+    box-shadow: 5px 5px 10px 2px  rgb(255, 255, 255);
     background: radial-gradient(white 30%, aqua 100%);
     scale: scale(1,05);
 
