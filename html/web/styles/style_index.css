@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: aliceblue;
+    background-image: none ;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+header img{
+    width: 50px;
+    padding-left: 10px;
+    opacity: .8;
+}
+
+header img:hover {
+    opacity: 1;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 50em;
+}
+
+section {
+    width: 50vw;
+    padding: 0 0 15em;
+    color: aqua;
+    text-shadow: white 2px 0 10px, black 0 2px 15;
+    
+}
+
+section h1{
+    font-size: 5em;
+    font-weight: 800;
+}
+
+section p{
+    font-size: 3em;
+    font-weight: 600;
+
+}
+.menu{
+    width: 50vw;
+    display: grid;
+    grid-template-columns: repeat(3, .1fr);
+    grid-template-rows: repeat(3, 5fr);
+    transform: rotateY(20deg);
+}
+
+.menu img{
+    width: 10vw;
+}
+
+.menu div {
+    border: 3px solid gray;
+    border-radius: 15px;
+    margin: 10px 10px;
+    box-shadow: 3px 3px 5px 1px grey;
+    background: radial-gradient(white 45%, aqua 100%);
+    transition: all .3s ease-in-out;
+}
+
+.menu div:hover {
+    box-shadow: 10px 10px 10px 10px gray;
+    background: radial-gradient(white 30%, aqua 100%);
+    scale: scale(1,05);
+
+}
