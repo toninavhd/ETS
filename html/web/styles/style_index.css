@@ -57,6 +57,7 @@ section {
 }
 
 section h1{
+    
     font-size: 5em;
     font-weight: 800;
 }
@@ -81,17 +82,17 @@ section p{
 }
 
 .menu div {
-    border: 3px solid gray;
+    border: 0cap solid gray;
     border-radius: 15px;
     margin: 10px 10px;
-    box-shadow: 3px 3px 5px 1px rgb(199, 199, 199);
-    background: radial-gradient(white 45%, aqua 100%);
-    transition: all .3s ease-in-out;
+    box-shadow: 3px 3px 5px 2px rgb(251, 181, 234);
+    background: radial-gradient(rgb(255, 109, 211) 45%, rgb(199, 199, 199) 80%);
+    transition: all .1s ease-in-out;
 }
 
 .menu div:hover {
-    box-shadow: 5px 5px 10px 2px  rgb(255, 255, 255);
-    background: radial-gradient(white 30%, aqua 100%);
+    box-shadow: 5px 5px 10px 2px  rgb(255, 149, 218);
+    background: radial-gradient(rgb(255, 1, 221) 30%, rgb(255, 149, 218) 100%);
     scale: scale(1,05);
 
 }
