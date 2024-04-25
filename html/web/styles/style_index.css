@@ -75,7 +75,7 @@ section p{
 
 .menu{
     
-    width: 30vw;
+    width: 50vw;
     display: grid;
     grid-template-columns: repeat(3, .1fr);
     grid-template-rows: repeat(3, .5fr);
