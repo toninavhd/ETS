@@ -19,7 +19,8 @@ body {
     backdrop-filter: blur(5px);
     margin: 10vh 0;
     height: 80vh;
-    box-shadow: 2px 10px 20px  rgb(72, 72, 72);
+    box-shadow: 2px 10px 20px  rgba(72, 72, 72, 0.253);
+    
 }
 
 
@@ -49,7 +50,10 @@ main {
 }
 
 section {
-    width: 50vw;
+    
+    width: 60vw;
+    position: relative;
+    left: 100px;
     padding: 0 0 15em;
     color: rgb(0, 0, 0);
     text-shadow: white 2px 0 10px, black 0 2px 15;
@@ -63,15 +67,15 @@ section h1{
     font-weight: 800;
 }
 
-section p{
-    
+section p{    
     font-family: Arial, Helvetica, sans-serif, cursive;
     font-size: 1em;
     font-weight: 600;
-
 }
+
 .menu{
-    width: 50vw;
+    
+    width: 30vw;
     display: grid;
     grid-template-columns: repeat(3, .1fr);
     grid-template-rows: repeat(3, .5fr);
@@ -89,7 +93,7 @@ section p{
 .menu div {
     border: 0cap solid rgb(5, 5, 5);
     border-radius: 15px;
-    margin: 10px 10px;
+    margin: 10px 10px 10px;
     box-shadow: 3px 3px 5px 2px rgb(251, 181, 234);
     background: radial-gradient(rgb(255, 255, 255) 45%, rgb(247, 158, 225) 80%);
     transition: all .1s ease-in-out;
@@ -100,4 +104,19 @@ section p{
     background: radial-gradient(rgb(246, 49, 177) 30%, rgb(255, 149, 218) 100%);
     scale: scale(1,05);
 
+}
+
+container{
+    display: inline;  
+    position: relative;
+    right: 75% ;
+    top:35%;           
+    
+    box-shadow: -10px 5px 50px 5px rgb(49, 49, 49);
+  
+}
+
+.container iframe{
+    background-attachment: fixed;
+    
 }
