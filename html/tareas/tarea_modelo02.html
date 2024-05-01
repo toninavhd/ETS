@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">   
+    <title>modelo 02</title>
+    <style>
+        body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    table {
+      width: 50%;
+      border: 1px solid #000;
+      margin: auto;
+    }
+
+    th, td {
+      border: 1px solid #000;
+      padding: 8px;
+    }
+        .texto-verde {
+            color: green;
+        }
+        .texto_izquierda {
+            text-align: left;
+        }
+        .texto_derecha {
+            text-align: right;
+        }
+        .texto_centro {
+            text-align: center;
+        }
+    </style>
+</head>
+    <body>
+        <table border="1px">
+            <caption class="texto_izquierda">Alumno: Antonio Navarro </caption>
+            <tr>
+                <td class="texto-verde texto_centro" colspan="2"><h2>Programación</h2></td>
+                <td class="texto_derecha"colspan="2">Asignatura de primer curso</td>
+            </tr>
+            <tr>
+                <th class="texto_izquierda"><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/python.jpg?raw=true" alt="Imagen HTML" width="50" height="50"></th>
+                <td colspan="2"><b>Python</b>: Lenguaje Para empezar.</td>
+            </tr>
+            <tr>
+                <td><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/java.jpg?raw=true" alt="Imagen CSS" width="50" height="50"></td>
+                <td colspan="2"><b>Java</b>: Lenguaje más potente y actual.</td>
+            </tr>
+            <tr>
+                <td><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/javascript.jpg?raw=true" alt="Imagen XML" width="50" height="50"></td>
+                <td colspan="2"><b>JavaScript</b>: Lo aprenderas en el segundo curso.</td>
+            </tr>
+            <tr>
+                <td><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/unnamed3.jpeg?raw=true" alt="Imagen dedo positivo" width="50" height="50"></td>
+                <td class="texto_centro"><a href= "http://www.iespuertodelacruz.es/">VER AL INSTITUTO</a></td>
+                <td>Otras materias de primero:
+                    <ol type="A">
+                        <li>Programación</li>
+                        <li>Bases de Datos</li>
+                        <li>Entornos</li>
+                        <li>Sistemas</li>
+                        <li>Inglés</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

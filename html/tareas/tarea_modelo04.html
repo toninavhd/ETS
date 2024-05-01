@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo_04</title>
+    <style>
+        body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    table {
+    
+      width: 50%;
+      border: 1px solid #000;
+      margin: auto;
+    }
+
+    th, td {
+      border: 1px solid #000;
+      padding: 8px;
+    }
+        .texto-rojo {
+            color: red;
+        }
+        .texto_izquierda {
+            text-align: left;
+        }
+        .texto_derecha {
+            text-align: right;
+        }
+        .texto_centro {
+            text-align: center;
+        }
+        .texto_gris {
+            color: gray;
+        }
+        .subrayado-negro {
+      text-decoration: underline;
+      text-decoration-color: black; 
+        }
+    </style>
+</head>
+    <body>
+        <table border="1px">
+            <caption><h1>World of Warcraft: <span class="texto-rojo">Clases de Personajes</span></h1></caption>
+            <tr>
+                <td class="texto-rojo" colspan="4"><h2>Clases con ataques cuerpo a cuerpo</h2></td>
+            </tr>
+            <tr>
+                <td class="texto_gris">Razas</td>
+                <td class="texto-rojo">Clases</td>
+                <td class="texto_gris">Objetos</td>
+                <td rowspan="6">Personajes con ataques cuerpo a cuerpo
+                    <ol type="i" start="6">
+                        <li>Brujo</li>
+                        <li>Mago</li>
+                        <li>Sacerdote</li>
+                        <li>Cazador</li>
+                        <li>Chamán</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/monje.png?raw=true" alt="Imagen HTML" width="80" height="80"></td>
+                <td colspan="2"><span class="subrayado-negro">Monje</span>:Personaje con ataque cuerpo a cuerpo</td>
+            </tr>
+            <tr>
+                <td colspan="2"><span class="subrayado-negro">Picaro</span>:con ataque cuerpo a cuerpo</td>
+                <td><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/picaro.png?raw=true" alt="Imagen HTML" width="80" height="80"></td>
+            </tr>
+            <tr>
+                <td><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/caballerodelamuerte.png?raw=true" alt="Imagen HTML" width="80" height="80"></td>
+                <td colspan="2"><span class="subrayado-negro">Caballero</span>:personaje con ataque cuerpo a cuerpo</td>
+            </tr>
+            <tr>
+                <td colspan="2"><span class="subrayado-negro">Guerrero</span>:personaje con ataque cuerpo a cuerpo</td>
+                <td><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/guerrero.png?raw=true" alt="Imagen HTML" width="80" height="80"></td>
+            </tr>
+            <tr>
+                <td><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/paladin.png?raw=true" alt="Imagen HTML" width="80" height="80"></td>
+                <td colspan="2"><span class="subrayado-negro">Paladín</span> personaje con ataque cuerpo a cuerpo</td>
+            </tr>
+        </table>
+    </body>
+</html>
