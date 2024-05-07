@@ -38,8 +38,8 @@ header img{
 }
 
 header img:hover {
-    box-shadow: 1px 1px 20px 10 px  rgb(255, 149, 218);
-    background: radial-gradient(rgb(246, 49, 177) 30%, rgb(255, 149, 218) 100%);
+    box-shadow: 0px 0px 5px 5px  rgba(255, 149, 218, 0.479);
+    background: radial-gradient(rgba(246, 49, 177, 0.356) 30%, rgba(255, 149, 218, 0.199) 100%);
     scale: scale(2px);
 }
 
