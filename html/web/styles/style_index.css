@@ -30,8 +30,7 @@ header {
     padding-top: 10px;    
 }
 
-header img{
-    
+header img{    
     
     width: 100px;
     padding-left: 15px;
@@ -39,9 +38,9 @@ header img{
 }
 
 header img:hover {
-    box-shadow: 5px 5px 10px 2px  rgb(255, 149, 218);
+    box-shadow: 5px 5px 5px 5px  rgb(255, 149, 218);
     background: radial-gradient(rgb(246, 49, 177) 30%, rgb(255, 149, 218) 100%);
-    scale: scale(1,05);
+    scale: scale(1,00);
 }
 
 main {   
