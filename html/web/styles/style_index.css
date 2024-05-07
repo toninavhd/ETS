@@ -31,7 +31,9 @@ header {
 }
 
 header img{
-    width: 50px;
+    border: 100px;
+    
+    width: 100px;
     padding-left: 15px;
       
 }
