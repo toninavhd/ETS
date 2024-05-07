@@ -38,7 +38,7 @@ header img{
 }
 
 header img:hover {
-    box-shadow: 2px 2px 2px 2px  rgb(255, 149, 218);
+    box-shadow: 2px 2px 20px 20px  rgb(255, 149, 218);
     background: radial-gradient(rgb(246, 49, 177) 30%, rgb(255, 149, 218) 100%);
     scale: scale(10px);
 }
