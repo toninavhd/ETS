@@ -39,7 +39,9 @@ header img{
 }
 
 header img:hover {
-    opacity: 1;
+    box-shadow: 5px 5px 10px 2px  rgb(255, 149, 218);
+    background: radial-gradient(rgb(246, 49, 177) 30%, rgb(255, 149, 218) 100%);
+    scale: scale(1,05);
 }
 
 main {   
