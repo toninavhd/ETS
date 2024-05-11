@@ -38,9 +38,9 @@ header img{
 }
 
 header img:hover {
-    box-shadow: 0px 0px 5px 5px  rgba(255, 149, 218, 0.479);
-    background: radial-gradient(rgba(246, 49, 177, 0.356) 30%, rgba(255, 149, 218, 0.199) 100%);
-    scale: scale(100px);
+    opacity: 50%;    
+    border-image: url('https://i.pinimg.com/originals/2c/83/d8/2c83d886658334186cab273cfc42af5a.gif');
+    border-radius: 20px;
 }
 
 main {   
@@ -86,24 +86,31 @@ main {
 
 .slinky h1:nth-child(1){
     animation-delay: -0.04s;
+    color: #ff0000;
 }
 .slinky h1:nth-child(2){
     animation-delay: -0.08s;
+    color: blue;
 }
 .slinky h1:nth-child(3){
     animation-delay: -0.12s;
+    color: yellow;
 }
 .slinky h1:nth-child(4){
     animation-delay: -0.16s;
+    color: rgb(1, 222, 1);
 }
 .slinky h1:nth-child(5){
     animation-delay: -0.20s;
+    color: rgb(253, 10, 164);
 }
 .slinky h1:nth-child(6){
     animation-delay: -0.24s;
+    color:aquamarine;
 }
 .slinky h1:nth-child(7){
     animation-delay: -0.28s;
+    
 }
 .slinky h1:nth-child(8){
     animation-delay: -0.32s;
