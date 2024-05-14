@@ -90,26 +90,32 @@ main {
 }
 .slinky h1:nth-child(2){
     animation-delay: -0.08s;
+    mix-blend-mode: screen;
     color: blue;
 }
 .slinky h1:nth-child(3){
     animation-delay: -0.12s;
     color: yellow;
+    mix-blend-mode: difference;
 }
 .slinky h1:nth-child(4){
     animation-delay: -0.16s;
     color: rgb(1, 222, 1);
+    mix-blend-mode: difference;
 }
 .slinky h1:nth-child(5){
     animation-delay: -0.20s;
     color: rgb(253, 10, 164);
+    mix-blend-mode: difference;
 }
 .slinky h1:nth-child(6){
     animation-delay: -0.24s;
     color:aquamarine;
+    mix-blend-mode: exclusion;
 }
 .slinky h1:nth-child(7){
     animation-delay: -0.28s;
+    mix-blend-mode: exclusion;
     
 }
 .slinky h1:nth-child(8){
