@@ -38,7 +38,7 @@ header img{
 }
 
 header img:hover {
-    opacity: 50%;    
+    opacity: 30%;    
     border-image: url('https://i.pinimg.com/originals/2c/83/d8/2c83d886658334186cab273cfc42af5a.gif');
     border-radius: 20px;
 }
@@ -62,7 +62,7 @@ main {
 .slinky h1
 {
     position: fixed;
-    bottom: -20dvb;  
+    bottom: -10dvb;  
     right: -30dvb; 
     transform: translate(-50%,-50%);
     margin: 0;
@@ -74,11 +74,15 @@ main {
     animation: animate alternate 4s infinite;
 
 }
-.slinky h2{
+.slinky h2{    
+    position: absolute;
+    right: 1dvb;
+    bottom: -15dvb;
     background: url('https://i.pinimg.com/originals/2c/83/d8/2c83d886658334186cab273cfc42af5a.gif');
     background-clip: text;
     -webkit-background-clip: text;
-    color:transparent
+    color:transparent;  
+    
    
 }
 
@@ -129,6 +133,7 @@ main {
 @keyframes animate{
     0%,100%{
         left: -50px;
+        
     }
     25%{
         left: 200px;
@@ -201,7 +206,7 @@ section p{
 
 container{
     
-    display:block;  
+    display:inline;
     position: relative;
     right: 75% ;
     top:35%;     
@@ -211,12 +216,9 @@ container{
 
 
 .container iframe{
+    display: grid;
     background-attachment: fixed;
     
     
     
-}
-@keyframes animacionCircular {
-    0%{ transform: perspective(1000px) rotateX(0deg) rotate(0deg); }
-    100%{ transform: perspective(1000px) rotateX(360deg) rotate(0deg); }
 }
