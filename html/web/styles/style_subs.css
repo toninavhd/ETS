@@ -1,0 +1,73 @@
+.widget_blog_subscription {
+	display: block;
+	margin: 50px auto;
+	width: 60%;
+	max-width: 490px;
+	min-width: 320px;
+	position: relative;
+	overflow: hidden;
+	background-color: #000000;
+}
+.widget_blog_subscription p {
+	margin: 0;
+	text-align: center;
+}
+body{
+    background-color: #000000;
+}
+.widget_blog_subscription p:first-child {
+	margin: 40px 15px 0;    
+	text-align: center;
+	font-size: 40px;
+    font-style: italic;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	letter-spacing: 1px;
+    background: url('https://i.pinimg.com/originals/2c/83/d8/2c83d886658334186cab273cfc42af5a.gif');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.widget_blog_subscription input[type="text"] {
+	margin: 45px 30px;
+	color: #999;
+	padding: 25px 15px !important;
+	text-align: center;
+	width: 100% !important;
+	max-width: calc(100% - 90px);
+	outline: none;
+	border: 0;	
+	font-size: 12px;
+}
+.widget_blog_subscription input[type="text"]::-webkit-input-placeholder {
+	color: #e76969;
+}
+.widget_blog_subscription input[type="text"]:-moz-placeholder {
+	color: #e76969;
+}
+.widget_blog_subscription input[type="text"]::-moz-placeholder {
+	color: #000000;
+}
+.widget_blog_subscription input[type="text"]:-ms-input-placeholder {
+	color: #e76969;
+}
+.widget_blog_subscription input[type="submit"] {
+	margin: 0;
+	background-color: #fc2828;
+	color: #fff;
+	padding: 25px 15px !important;
+	text-align: center;
+	width: 100%;
+	max-width: 100%;
+	outline: none;
+	border: 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	cursor: pointer;
+	-webkit-transition: .1s all ease-in-out;
+	-moz-transition: .1s all ease-in-out;
+	-o-transition: .1s all ease-in-out;
+	transition: .1s all ease-in-out;
+}
+.widget_blog_subscription input[type="submit"]:hover {
+	background-color: #ff7b7b;
+}
