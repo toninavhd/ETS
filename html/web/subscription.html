@@ -4,40 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            background-color: black;
-            }
-        form {
-            background-color: #000000;
-            background-position: center;
-
-        }
-        input[type='text']{
-            color: rgb(0, 0, 0);
-            
-        }
-
-        input[type='email']{
-            color: rgb(0, 0, 0)
-            
-        }
-
-        input[type='submit']{
-            color: blue
-        }
-
-        
-    </style>
+    <link rel="stylesheet" href="./styles/style_subs.css">
 </head>
 <body>
-
-    <form action="#">
-        <input type="text" name="name" placeholder="Nombre">
-        <input type="email" name="email" placeholder="Correo electrónico">
-        <input type="submit" value="Suscribirse">
-    </form>
-    
-    
+    <section class="widget widget_blog_subscription">
+        <form action="#" method="post" accept-charset="utf-8" id="subscribe-blog">
+            <p>★SUBSCRIBE TO MY NEWSLETTER★</p>
+            <p>
+                <input type="text" name="email" style="width: 95%; padding: 1px 2px" placeholder="Enter your email address" value="" id="subscribe-field">
+            </p>
+            <p>
+                <input type="submit" value="Follow me!">
+            </p>
+        </form>
+    </section>
 </body>
 </html>
