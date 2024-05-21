@@ -172,8 +172,7 @@ section p{
     font-weight: 600;
 }
 
-.menu{
-    
+.menu{    
     width: 50vw;
     display: grid;
     grid-template-columns: repeat(3, .1fr);
@@ -218,8 +217,12 @@ container{
 
 .container iframe{
     display: grid;
-    background-attachment: fixed;
-    
-    
-    
+    background-attachment: fixed;    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: -20px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
