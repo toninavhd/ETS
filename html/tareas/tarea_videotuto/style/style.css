@@ -1,0 +1,77 @@
+.body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*PC*/
+
+.tabla-pc {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-pc tr th {
+    background-color: #303030;
+    color: white;
+    border: 1px solid #909090;
+    padding: 5px;
+    text-align: left;
+}
+
+.tabla-pc tr td {
+    border: 1px solid #909090;
+    padding: 5px;
+}
+
+.tabla-pc tr:nth-of-type(odd) {
+    background-color: #e6e6e6;
+}
+
+/* TELEFONO*/
+
+.tabla-telefono {
+    display: none;
+    width: 100%;
+}
+
+.tabla-telefono .fila .columna {
+    display: flex;
+}
+
+.tabla-telefono .fila .columna .header, 
+.tabla-telefono .fila .columna .contenido {
+    border: 1px solid #909090;
+    border-bottom: none;
+    padding: 10px;
+}
+
+.tabla-telefono .fila .columna .header {
+    width: 40%;
+    background-color: #303030;
+    color: white;
+    font-weight: bold;
+}
+
+.tabla-telefono .fila .columna .contenido {
+    width: 60%;
+}
+
+.tabla-telefono .fila:nth-of-type(even) .columna .contenido {
+    background-color: #e6e6e6;
+}
+
+.tabla-telefono .fila .columna:last-of-type .contenido, 
+.tabla-telefono .fila .columna:last-of-type .header {
+    border-bottom: 1px solid #909090;
+}
+
+@media (max-width: 768px) {
+    .tabla-telefono {
+        display: block;
+    }
+
+    .tabla-pc {
+        display: none;
+    }
+}
