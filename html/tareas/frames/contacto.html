@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta conmigo</title>
+</head>
+<body>
+  <h1>Contacta conmigo...</h1>
+  <form>
+    <label for="nombre">Tu nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br>
+    <label for="sexo">Tu sexo:</label>
+    <br>
+    <input type="radio" id="mujer" name="sexo" value="mujer" checked>
+    <label for="mujer">Mujer</label>
+    <br>
+    <input type="radio" id="hombre" name="sexo" value="hombre">
+    <label for="hombre">Hombre</label>
+    <br>
+    <label for="estudios">Estás estudiando:</label>
+    <br>
+    <select id="estudios" name="estudios" required>
+      <option value="primero_as">Primero de Administración de Sistemas</option>
+      <option value="segundo_as">Segundo de Administración de Sistemas</option>
+      <option value="primero_dw" selected>Primero de Desarrollo Web</option>
+      <option value="segundo_dw">Segundo de Desarrollo Web</option>
+    </select>
+    <br>
+    <label for="mensaje">El texto de tu mensaje:</label>
+    <br>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <br>
+    <button type="submit">Contacta conmigo</button>
+  </form>
+</body>
+</html>
