@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 17px;
+  }
+  
+  hr {
+    border: 1px solid #ccc;
+  }
+  
+
+  
+  form {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+
+  
+  input[type="submit"] {
+    background-color: #0073b7;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #0073b7;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+
+  
+  #imagen {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+  
+
+  
+  #forma_acceso {
+    margin-top: 20px;
+  }
+  
+  #forma_acceso p {
+    margin-bottom: 10px;
+  }
+
+  
+  #documentos_adjuntos {
+    margin-top: 20px;
+  }
+  
+  #documentos_adjuntos p {
+    margin-bottom: 10px;
+  }
+
+  
+  @media (max-width: 768px) {
+    form {
+      width: 100%;
+    }
+  }
+
+
+#datos_personales {
+    background-color: #ccc;
+    padding: 20px;
+  }
+  
+  #forma_acceso {
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  #documentos_adjuntos {
+    background-color: red;
+    padding: 20px;
+  }
+  

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Inscripción</title>
+  <link rel="stylesheet" href="formularios.css">
+</head>
+<body>
+  <h1>HOJA DE INSCRIPCIÓN</h1>
+  <h2>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h2>
+  <hr>
+  <div id="datos_personales">
+  <h3>Datos Personales</h3>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre">
+    <br>
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos" placeholder="Introduzca sus apellidos">
+    <br>
+    <label for="dni">DNI:</label>
+    <input type="text" id="dni" name="dni" placeholder="Introduzca su DNI">
+    <br>
+    <label for="localidad_nacimiento">Localidad de Nacimiento:</label>
+    <input type="text" id="localidad_nacimiento" name="localidad_nacimiento" placeholder="Introduzca su localidad de nacimiento">
+    <br>
+    <label for="provincia">Provincia:</label>
+    <input type="text" id="provincia" name="provincia" placeholder="Introduzca su provincia">
+    <br>
+    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+    <br>
+    <br>
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" name="direccion" placeholder="Introduzca su dirección">
+    <br>
+    <label for="codigo_postal">Código Postal:</label>
+    <input type="text" id="codigo_postal" name="codigo_postal" placeholder="Introduzca su código postal">
+    <br>
+    <br>
+    </div>
+    <div id="forma_acceso">
+    <h3>Forma de Acceso</h3>
+    <p>Seleccione su forma de acceso:</p>
+    <input type="radio" id="acceso_directo" name="acceso" value="directo" checked>
+    <label for="acceso_directo">Acceso Directo</label><br>
+    <input type="radio" id="bachillerato_logse" name="acceso" value="bachillerato_logse">
+    <label for="bachillerato_logse">Bachillerato LOGSE (Modalidad:</label>
+    <select id="bachillerato_logse_modalidad" name="bachillerato_logse_modalidad">
+      <option value="">Seleccione una modalidad</option>
+      <option value="ciencias">Ciencias</option>
+      <option value="letras">Letras</option>
+      <option value="artes">Artes</option>
+    </select><br>
+    <input type="radio" id="bachillerato_experimental" name="acceso" value="bachillerato_experimental">
+    <label for="bachillerato_experimental">Bachillerato Experimental</label><br>
+    <input type="radio" id="COU" name="acceso" value="COU">
+    <label for="COU">COU (Opción:</label>
+    <select id="COU_opcion" name="COU_opcion">
+      <option value="">Seleccione una opción</option>
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+    </select><br>
+    <input type="radio" id="fp2" name="acceso" value="fp2">
+    <label for="fp2">FP2</label><br>
+    <input type="radio" id="otros" name="acceso" value="otros">
+    <label for="otros">Otros (especifique):</label>
+    <input type="text" id="otros_especificacion" name="otros_especificacion" placeholder="Especifique su forma de acceso">
+    <br>
+    <input type="radio" id="pruebalibre" name="pruebalibre" value="pruebalibre">
+    <label for="pruebalibre">Prueba libre</label><br>
+    <br>
+    </div>
+    <div id="documentos_adjuntos">
+    <h3>Documentos Adjuntandos</h3>
+    <p>Seleccione los documentos que adjunta:</p>
+    <div style="display: flex; gap: 10px;">
+    <input type="checkbox" id="fotocopia_dni" name="documentos[]" value="fotocopia_dni" checked>
+    <label for="fotocopia_dni">Fotocopia del DNI</label><br>
+    <input type="checkbox" id="certificado_escolaridad" name="documentos[]" value="certificado_escolaridad" checked>
+    <label for="certificado_escolaridad">Certificado de Escolaridad</label><br>
+    </div>
+    <br>
+    <div style="display: flex;">
+      <input type="checkbox" id="comprobante_pago_tasas" name="documentos[]" value="comprobante_pago_tasas" checked>
+    <label for="comprobante_pago_tasas">Comprobante de Pago de Tasas</label><br>
+    <input type="radio" id="otros_docs" name="otros_docs" value="otros_docs">
+    <label for="otros_docs">Otros (especifique):</label>
+    <input type="text" id="otros_docs" name="otros_docs" placeholder="Especifique otros documentos">
+    <br>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Enviar Solicitud">
+  </form>
+</body>
+</html>
